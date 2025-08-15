@@ -5,8 +5,8 @@
 ## 기능
 
 - `get_company_list()`: 지원하는 택배회사 목록 조회
-- `track_shipping(company_code, tracking_invoice)`: 택배 추적
-
+- `track_shipping(company_code, tracking_invoice)`: 배송 조회
+  
 ## 사전 요구사항
 
 - [SweetTracker (스마트택배)](https://www.sweettracker.co.kr/) API 키
