@@ -23,7 +23,7 @@ cd shippingtracker
 ### 2. 환경변수 설정
 
 ```bash
-echo "t_key=YOUR_API_KEY" > .env
+echo "SWEETTRACKER_API_KEY=YOUR_API_KEY" > .env
 ```
 
 ### 3. 실행
@@ -46,7 +46,7 @@ Claude Desktop의 설정 파일(`claude_desktop_config.json`)을 다음과 같�
       "command": "uvx",
       "args": ["shippingtracker"],
       "env": {
-        "t_key": "YOUR_API_KEY"
+        "SWEETTRACKER_API_KEY": "YOUR_API_KEY"
       }
     }
   }

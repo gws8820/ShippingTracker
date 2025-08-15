@@ -1,6 +1,6 @@
 [project]
 name = "shippingtracker"
-version = "0.1.1"
+version = "0.1.2"
 description = "Korean shipping tracker MCP server using SweetTracker API"
 readme = "README.md"
 requires-python = ">=3.13"

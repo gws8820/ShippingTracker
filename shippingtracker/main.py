@@ -3,7 +3,7 @@ import requests
 from mcp.server.fastmcp import FastMCP
 
 mcp = FastMCP()
-t_key = os.getenv("t_key")
+t_key = os.getenv("SWEETTRACKER_API_KEY")
 
 @mcp.tool()
 def get_company_list():
