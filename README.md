@@ -1,6 +1,6 @@
 # ShippingTracker MCP Server
 
-한국 택배 추적을 위한 MCP (Model Context Protocol) 서버입니다. SweetTracker API를 사용하여 배송 추적 기능을 제공합니다.
+한국 택배 배송 조회를 위한 MCP (Model Context Protocol) 서버입니다. SweetTracker API를 사용하여 택배사 목록과 운송장 번호를 조회합니다.
 
 ## 기능
 
