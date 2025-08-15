@@ -2,6 +2,10 @@
 
 한국 택배 배송 조회를 위한 MCP (Model Context Protocol) 서버입니다. SweetTracker API를 사용하여 택배사 목록과 운송장 번호를 조회합니다.
 
+<a href="https://glama.ai/mcp/servers/@gws8820/ShippingTracker">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@gws8820/ShippingTracker/badge" alt="ShippingTracker MCP server" />
+</a>
+
 ## 기능
 
 - `get_company_list()`: 지원하는 택배회사 목록 조회
