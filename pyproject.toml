@@ -1,0 +1,24 @@
+[project]
+name = "shippingtracker"
+version = "0.1.0"
+description = "Korean shipping tracker MCP server using SweetTracker API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.13.0",
+    "requests>=2.32.4",
+]
+
+[project.scripts]
+shippingtracker = "shippingtracker.main:mcp.run"
+
+[project.urls]
+Homepage = "https://github.com/gws8820/shippingtracker"
+Repository = "https://github.com/gws8820/shippingtracker"
+
+[tool.hatch.build.targets.wheel]
+packages = ["shippingtracker"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
