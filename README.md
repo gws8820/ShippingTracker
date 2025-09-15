@@ -16,8 +16,8 @@
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/gws8820/shipping-tracker.git
-cd shipping-tracker
+git clone https://github.com/gws8820/shippingtracker.git
+cd shippingtracker
 ```
 
 ### 2. 환경변수 설정
@@ -29,10 +29,10 @@ echo "SWEETTRACKER_API_KEY=YOUR_API_KEY" > .env
 ### 3. 실행
 
 ```bash
-uv run python -m shipping-tracker.main
+uv run python -m shippingtracker.main
 
 # 또는 uvx로 실행
-uvx --from . shipping-tracker
+uvx --from . shippingtracker
 ```
 
 ## Claude Desktop과 연결
@@ -42,9 +42,9 @@ Claude Desktop의 설정 파일(`claude_desktop_config.json`)을 다음과 같�
 ```json
 {
   "mcpServers": {
-    "shipping-tracker": {
+    "shippingtracker": {
       "command": "uvx",
-      "args": ["shipping-tracker"],
+      "args": ["shippingtracker"],
       "env": {
         "SWEETTRACKER_API_KEY": "YOUR_API_KEY"
       }
